@@ -139,6 +139,10 @@ contains
 
     rc = ESMF_SUCCESS
 
+    ! Determine indices
+
+    call rtm_cpl_indices_set()
+ 
     ! Duplicate the mpi communicator from the current VM 
 
     call ESMF_VMGetCurrent(vm, rc=rc)
@@ -245,10 +249,6 @@ contains
        endr = runoff%endr
        allocate(totrunin(begr:endr,nt_rtm))
 
-       ! Determine indices
-
-       call rtm_cpl_indices_set()
- 
        !-----------------------------------------
        ! Initialize distgrid
        !-----------------------------------------

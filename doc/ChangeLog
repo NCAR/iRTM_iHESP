@@ -1,72 +1,21 @@
-===============================================================================
-Tag Creator: Jiang Zhu
-Developers: Jiang Zhu
-Tag Date: March 30, 2015    
-Tag Name: geotrace_n04_rtm1_0_42
-Tag Summary: update to trunk tag rtm1_0_42
-Files Modified:
-M       bld/rtm.buildnml.csh
-M       bld/build-namelist
-M       bld/namelist_files/namelist_defaults_rtm.xml
-M       bld/rtm.buildexe.csh
-M       doc/ChangeLog
-D       src/cpl_share
-D       src/cpl_share/rtm_cpl_indices.F90
-D       src/cpl_mct
-D       src/cpl_mct/rof_comp_mct.F90
-?       src/riverroute/RunoffMod.F90.edited
-M       src/riverroute/RtmMod.F90
-M       src/riverroute/RtmHistFile.F90
-M       src/riverroute/RtmIO.F90
-M       src/riverroute/RtmTimeManager.F90
-A  +    src/riverroute/RtmFinalizeAll.F90
-M       src/riverroute/RunoffMod.F90
-M       src/riverroute/RtmRestFile.F90
-D       src/cpl_esmf
-D       src/cpl_esmf/rof_comp_mct.F90
-D       src/cpl_esmf/rof_comp_esmf.F90
-A  +    src/cpl
-A  +    src/cpl/rof_comp_mct.F90
-A  +    src/cpl/rof_comp_esmf.F90
-A  +    src/cpl/rtm_cpl_indices.F90
-A  +    src/cpl/rof_import_export.F90
-
-===============================================================================
-Tag Creator: Jiang Zhu
-Developers: Jiang Zhu
-Tag Date:  July 1, 2014    
-Tag Name: geotrace_n03_rtm1_0_27
-Tag Summary: add a namelist (wiso_runoff) to control the on/off of water isotopes
-Files Modified:
-M       bld/build-namelist
-M       bld/namelist_files/namelist_defaults_rtm.xml
-M       bld/namelist_files/namelist_definition_rtm.xml
-M       src/cpl_share/rtm_cpl_indices.F90
-M       src/cpl_mct/rof_comp_mct.F90
-M       src/riverroute/RtmMod.F90
-M       src/riverroute/RtmHistFlds.F90
-M       src/riverroute/RtmVar.F90
-M       src/riverroute/RunoffMod.F90
-
-===============================================================================
-Tag Creator: Jiang Zhu
-Developers: Jiang Zhu
-Tag Date:  June 23, 2014    
-Tag Name: geotrace_n02_rtm1_0_27
-Tag Summary: water isotope development (without flood)
-Files Modified:
-M            src/cpl_mct/rof_comp_mct.F90
-M            src/cpl_share/rtm_cpl_indices.F90
-M            src/riverroute/RtmHistFlds.F90
-M            src/riverroute/RunoffMod.F90
 
 ===============================================================
-Tag name:  rtm1_0_42
-Originator(s): jedwards
-Date: Feb 12, 2015
-One-line Summary: String syntax change to satisfy cray compiler
+Tag name:  ihesp_rtm4.5.1.3_wiso_01
+Originator(s): Jiang Zhu
+Date: Jul 22, 2021
+One-line Summary: add water isotope code
 
-M      src/riverroute/RtmMod.F90
+M         bld/build-namelist
+M         bld/namelist_files/namelist_defaults_rtm.xml
+M         bld/namelist_files/namelist_definition_rtm.xml
+M         cime_config/namelist_definition_rtm.xml
+M         src/cpl/rof_comp_mct.F90
+M         src/cpl/rof_import_export.F90
+M         src/cpl/rtm_cpl_indices.F90
+M         src/riverroute/RtmHistFlds.F90
+M         src/riverroute/RtmMod.F90
+M         src/riverroute/RtmVar.F90
+M         src/riverroute/RunoffMod.F90
 
 ===============================================================
 Tag name:  rtm1_0_41

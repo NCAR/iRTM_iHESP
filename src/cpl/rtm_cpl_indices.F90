@@ -6,7 +6,7 @@ module rtm_cpl_indices
 !
 ! !DESCRIPTION:
 !    Module containing the indices for the fields passed between RTM and
-!    the driver. 
+!    the driver.
 !
 ! !USES:
 
@@ -30,8 +30,8 @@ module rtm_cpl_indices
   integer, public :: index_x2r_Flrl_rofi_16O  = 0   ! lnd->rtm H216O water flux in ice runoff
   integer, public :: index_x2r_Flrl_rofl_18O  = 0   ! lnd->rtm H218O water flux in liquid runoff
   integer, public :: index_x2r_Flrl_rofi_18O  = 0   ! lnd->rtm H218O water flux in ice runoff
-  integer, public :: index_x2r_Flrl_rofl_HDO  = 0   ! lnd->rtm HDO water flux in liquid runoff
-  integer, public :: index_x2r_Flrl_rofi_HDO  = 0   ! lnd->rtm HDO water flux in liquid runoff
+  integer, public :: index_x2r_Flrl_rofl_HDO  = 0   ! lnd->rtm HDO   water flux in liquid runoff
+  integer, public :: index_x2r_Flrl_rofi_HDO  = 0   ! lnd->rtm HDO   water flux in ice runoff
 
   integer, public :: nflds_x2r = 0
 
@@ -73,7 +73,7 @@ contains
 
 
     !-----------------------------------------------------------------------
-    ! !DESCRIPTION: 
+    ! !DESCRIPTION:
     ! Set the coupler indices needed by the rof model coupler interface.
     ! runoff - (rtm -> ocn) and (rtm->lnd)
     !
@@ -148,5 +148,3 @@ contains
   end subroutine rtm_cpl_indices_set
 
 end module rtm_cpl_indices
-
-

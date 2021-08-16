@@ -51,7 +51,7 @@ module RtmVar
   logical,            public :: flood_active  = .false.  ! true => flood on
   logical,            public :: effvel_active = .false.  ! true => calculate eff. velocity from rdirc file
   logical,            public :: wiso_runoff   = .false.  ! false => do not do water isotope runoff 
- 
+
   ! Rtm grid size
   integer :: rtmlon = 1 ! number of rtm longitudes (initialize)
   integer :: rtmlat = 1 ! number of rtm latitudes  (initialize)
