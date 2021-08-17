@@ -32,7 +32,6 @@ module rof_comp_mct
                                 index_x2r_Flrl_rofl,  index_x2r_Flrl_rofi, &
                                 index_r2x_Forr_rofl,  index_r2x_Forr_rofi, &
                                 index_r2x_Flrr_flood, index_r2x_Flrr_volr
-
   use rof_import_export
 
   use mct_mod
