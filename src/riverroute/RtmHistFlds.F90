@@ -41,7 +41,7 @@ contains
     !-------------------------------------------------------
 
    !call RtmHistAddfld (fname='QCHANR', units='m3/s',  &
-    call RtmHistAddfld (fname='QCHANR'//'_'//trim(rtm_tracers(1)), units='m3/s', 
+    call RtmHistAddfld (fname='QCHANR'//'_'//trim(rtm_tracers(1)), units='m3/s', &
          avgflag='A', long_name='RTM river flow: '//trim(rtm_tracers(1)), &
          ptr_rof=runoff%runofflnd_nt1)
 
