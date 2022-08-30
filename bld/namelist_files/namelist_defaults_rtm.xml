@@ -33,6 +33,6 @@ for the CLM data in the CESM distribution
 <frivinp_rtm rof_grid="r01" >lnd/clm2/rtmdata/rdirc_0.1x0.1_qian_c130115.nc</frivinp_rtm>
 
 <!-- wiso-RTM switch -->
-<wiso_runoff>.false.</wiso_runoff>
+<wiso_runoff>.true.</wiso_runoff>
 
 </namelist_defaults>
