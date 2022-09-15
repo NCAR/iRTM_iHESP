@@ -237,7 +237,7 @@
       Switch for doing water isotope runoff
     </desc>
     <values>
-      <value>.false.</value>
+      <value>.true.</value>
     </values>
   </entry>
 
